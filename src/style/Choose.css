@@ -1,0 +1,17 @@
+.choose-page{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.choose-page h3{
+    width: 100vw;
+    text-align: center;
+}
+.choose-page img{
+    width: 270px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+}

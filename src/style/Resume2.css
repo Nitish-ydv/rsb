@@ -1,0 +1,41 @@
+.resume2-page{
+    width: 500px;
+    margin: 5px auto;
+}
+.name2{
+    font-size: 1.5rem;
+    margin: 7px;
+    margin-top: 20px;
+}
+.contact-box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+}
+.contact-box em{
+    display: flex;
+    align-items: center;
+}
+.box-data{
+    font-size: 12px;
+    width: 95%;
+    margin-left: 10px;
+    display: flex;
+}
+.box-data p{
+    width: 90%;
+    margin: 0 3px;
+}
+.box-data i{
+    width: 35%;
+    margin: 0 3px;
+    text-align: end;
+}
+.heading2{
+    width: 95%;
+    background-color: rgba(136, 128, 128, 0.596);
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 15px 10px;
+    padding-left: 3px;
+}

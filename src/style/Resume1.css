@@ -1,0 +1,53 @@
+.resume1-page{
+    width: 500px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-data{
+    display: flex;
+    justify-content: center;
+}
+.name{
+    font-size: 1.3rem;
+}
+.contact-data em{
+    height: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    font-style: normal;
+    font-size: 10px;
+    text-decoration: underline;
+}
+.box{
+    width: 100%;
+}
+.heading{
+    width: 98%;
+    border-bottom: 1px solid black;
+    margin: 10px auto;
+    font-weight: 600;
+}
+.box-data{
+    font-size: 12px;
+    width: 95%;
+    margin-left: 10px;
+    display: flex;
+}
+
+.exception{
+    width: 60% !important;
+    margin: 0 3px;
+}
+.box-data p{
+    width: 90%;
+    margin: 0 3px;
+}
+.box-data i{
+    width: 35%;
+    margin: 0 3px;
+    text-align: end;
+}

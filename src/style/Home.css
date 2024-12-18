@@ -1,0 +1,87 @@
+.home-page{
+    padding-top: 30px;
+}
+.home-page h2, .home-page p{
+    width: 100vw;
+    text-align: center;
+    margin: 5px 0;
+}
+.left-box{
+    width: 33vw;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.inputs{
+    width: 80%;
+    height: 25px;
+    margin: 5px 0;
+}
+.add-btn{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(0, 110, 255);
+    margin: 10px 5px;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+}
+.mid-box{
+    width: 33vw;
+}
+.right-box{
+    width: 33vw;
+}
+.main-box{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.ft-box{
+    display: flex;
+    flex-direction: column;
+}
+.fttime{
+    width: 80%;
+}
+.ft-main{
+    display: flex;
+}
+.full-box{
+    margin: 10px 3px;
+}
+.submit-btn{
+    width: 100vw;
+   display: flex;
+   justify-content: center;
+   margin: 0px;
+}
+.submit-btn button{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgb(0, 132, 255);
+    border-radius: 4px;
+    border: 0px;
+    color: white;
+}
+@media  only screen and (max-width:800px) {
+    .left-box,.mid-box,.right-box{
+        width: 50vw;
+    }
+    .inputs{
+        width: 65%;
+    }
+}
+@media  only screen and (max-width:500px) {
+    .left-box,.mid-box,.right-box{
+        width: 100vw;
+       
+    }
+    .inputs{
+        width: 250px;
+    }
+}
